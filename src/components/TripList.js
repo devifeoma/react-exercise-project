@@ -19,7 +19,7 @@ function TripList() {
       <label>
         <span>Search: </span>
         <input
-          placeholder="Enter Post Title"
+          placeholder="Search for a trip here"
           onChange={(event) => setQuery(event.target.value)}
         />
       </label>
